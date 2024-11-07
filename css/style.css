@@ -95,6 +95,10 @@ color: #000;
     padding-top: 5px;
 }
 
+.pic {
+    max-width: 100%;
+}
+
 .box-1 {
     background-color: #093145;
 }
@@ -172,6 +176,10 @@ footer {
         display: inline-block;
         margin-left: 20px;
     }
+
+    .intro-container {
+        display: flex;
+    }
 }
 
 /* desktop */
@@ -185,11 +193,17 @@ footer {
 
     .top-nav, 
     .top-nav li {
-         width: initial;
-        margin-bottom: 0;
+      width: initial;
+      margin-bottom: 0;
+    }
+
+    .intro-container {
+        display: flex;
+        margin: 0 40px 0 40px
     }
 
     .col {
         flex-basis: calc(33.333% - 20px);
     }
+
 }
