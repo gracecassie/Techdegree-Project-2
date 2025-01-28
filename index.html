@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <title>Navigation Position Change</title>
+    <title>Treehouse Project 2 Landing Page</title>
+    <meta name="description" content="This page will serve as an example of my skills in mobile-first responsive design">
  </head>
  <body>
    <header>
@@ -17,6 +18,7 @@
             <ul class="top-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -36,7 +38,7 @@
         </section>
 
         <!-- Portfolio Section -->
-        <h2>Portfolio</h2>
+        <h2 id="portfolio">Portfolio</h2>
         <div class="container">
             <div class="col box-1">
                 <img src="images/portfolio-1.png" alt="Portfolio Image One">
@@ -71,14 +73,45 @@
         </div>
 
         <!--Skills Section-->
-
+        <div id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skill-set">
+                <div>
+                <h4>Languages</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>      
+                </div>
+                <div>
+                <h4>Design Softwares</h4>
+                <ul>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Adobe Illustrator</li>
+                </ul>
+                </div>
+                <div>
+                <h4>Website Building</h4>
+                <ul>
+                    <li>WordPress Engine</li>
+                    <li>VS Code</li>
+                    <li>CyberDuck</li>
+                </ul>
+                </div>
+            </div>
+        </div>
 
         <!-- Contact Section -->
-        <div class="contact">
+        <div id="contact" class="contact">
             <h2>Contact</h2>
             <div class="contact-text">
                 <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-                <p>Phone: <strong>+1 (111) 555-1234</strong><br>Email: <strong>email@yoursite.com</strong></p>
+                <div class="contact-info"></div>
+                    <p>Phone: <strong>(222)222-2222</strong></p>
+                    <p>Email: <strong>gracecassieart@gmail.com</strong></p>
+                </div>
             </div>
         </div>
    </main>
@@ -86,10 +119,11 @@
     <footer>
         <h1>Grace Cassie</h1>
         <ul class="footer-nav">
-            <li class="top"><a href="#top">back to top</a></li>
-            <li class="full"><a href="#top">home</a></li>
-            <li class="full"><a href="#portfolio">portfolio</a></li>
-            <li class="full"><a href="#contact">contact</a></li>
+            <li class="top"><a href="#top">Back to Top</a></li>
+            <li class="full"><a href="#top">Home</a></li>
+            <li class="full"><a href="#portfolio">Portfolio</a></li>
+            <li class="full"><a href="#skills">Skills</a></li>
+            <li class="full"><a href="#contact">Contact</a></li>
         </ul>
     </footer>
  </body>
